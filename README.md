@@ -8,9 +8,10 @@
 
 * **Chapter 3**
 
-* **Chapter 4** *Function searchEntries in exercise 4.3.3 needs to be improved*
+* **Chapter 4**
+    - *Function searchEntries in exercise 4.3.3 needs to be improved*
 
-* Chapter 5: *Pending*
+* **Chapter 5**
 
 * Chapter 6: *Pending*
 
