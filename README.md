@@ -13,7 +13,7 @@
 
 * **Chapter 5**
 
-* Chapter 6: *Pending*
+* **Chapter 6**
 
 * Chapter 7: *Pending*
 
