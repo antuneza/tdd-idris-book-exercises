@@ -21,7 +21,7 @@
 
 * **Chapter 9**
 
-* Chapter 10: *Pending: section 10.2*
+* **Chapter 10**
 
 * **Chapter 11**
 
