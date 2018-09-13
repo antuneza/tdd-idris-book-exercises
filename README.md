@@ -23,7 +23,7 @@
 
 * Chapter 10: *Pending: section 10.2*
 
-* Chapter 11: *Pending*
+* **Chapter 11**
 
 * Chapter 12: *Pending*
 
