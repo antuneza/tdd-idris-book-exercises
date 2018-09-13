@@ -19,7 +19,7 @@
 
 * **Chapter 8**
 
-* Chapter 9: *Pending*
+* **Chapter 9**
 
 * Chapter 10: *Pending*
 
