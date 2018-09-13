@@ -17,7 +17,7 @@
 
 * **Chapter 7**
 
-* Chapter 8: *Pending*
+* **Chapter 8**
 
 * Chapter 9: *Pending*
 
