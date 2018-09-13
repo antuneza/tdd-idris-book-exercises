@@ -25,7 +25,7 @@
 
 * **Chapter 11**
 
-* Chapter 12: *Pending*
+* Chapter 12: *Pending: section 12.3*
 
 * Chapter 13: *Pending*
 
