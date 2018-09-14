@@ -29,4 +29,4 @@
 
 * Chapter 13: *Pending: section 13.1*
 
-* Chapter 14: *Pending: section 14.2*
+* **Chapter 14**
