@@ -8,8 +8,7 @@
 
 * **Chapter 3**
 
-* **Chapter 4**
-    - *Function searchEntries in exercise 4.3.3 needs to be improved*
+* **Chapter 4**  
 
 * **Chapter 5**
 
