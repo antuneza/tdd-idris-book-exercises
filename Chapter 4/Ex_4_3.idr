@@ -41,12 +41,12 @@ getEntry pos store = let store_items = items store in
     Just id => Just (index id (items store) ++ "\n", store)
 
 
-searchEntries: (substr : String) -> (store: DataStore) -> Maybe(String, DataStore)
-searchEntries substr store = let items' = (items store)
-                                 indexes = findIndices (\x => isInfixOf substr x) items'
-                                 vals = map (\id => index id items') indexes
-                                 zipped = zipWith (\id, val => show (the Nat (cast id)) ++ ": " ++ show val) indexes vals
-                                 in Just (unlines zipped, store)
+searchEntries: Vect _ String -> (substr : String) -> Nat -> String
+searchEntries [] substr k = ""
+searchEntries (x :: xs) substr k =
+  if isInfixOf substr x
+    then (show k ++ ": " ++ show x ++ "\n") ++ searchEntries xs substr (k+1)
+    else searchEntries xs substr (k+1)
 
 processInput : DataStore -> String -> Maybe (String, DataStore)
 processInput store input = case parse input of
@@ -55,7 +55,7 @@ processInput store input = case parse input of
     Just ("ID " ++ show (size store) ++ "\n", addToStore store item)
     Just (Get pos) => getEntry pos store
     Just Size => Just (show (size store) ++ "\n", store)
-    Just (Search str) => searchEntries str store
+    Just (Search str) => Just(searchEntries (items store) str 0, store)
     Just Quit => Nothing
 
 main : IO ()
